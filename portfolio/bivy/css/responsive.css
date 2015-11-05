@@ -1,0 +1,103 @@
+@media screen and (min-width: 480px) {
+	
+	/*    MAIN     */
+
+	#info-main-primary {
+		width: 50%;
+		float: left;
+	}
+
+	#info-main-secondary {
+		width: 40%;
+		float: right;
+
+	}
+
+	#info-main p {
+		font-size: 1.25em;
+	}
+
+	/*     CAFE       */
+
+	#cafe-time {
+		width: 50%;
+		float: left;
+	}
+
+	#cafe-specials {
+		width: 40%;
+		float: right;
+	}
+
+	#cafe-time h3 {
+		font-size: 1.5em;
+	}
+
+	/*		DINNER			*/
+
+	#dinner-time {
+		width: 50%;
+		float: left;
+	}
+
+	#dinner-specials {
+		width: 40%;
+		float: right;
+	}
+
+	#dinner-time h3 {
+		font-size: 1.5em;
+	}
+
+	/*		ABOUT 		*/
+
+	#location {
+		width: 50%;
+		float: left;
+	}
+
+	#contact {
+		width: 40%;
+		float: right;
+	}
+
+
+}
+
+
+@media screen and (min-width: 680px) {
+	
+	#logo {
+		float: left;
+		margin-left: 30px;
+	}
+
+	header {
+		height: 125px;
+	}
+
+	header nav {
+		position: relative;
+		top: 75px;
+		width: 50%;
+		float: right;
+		text-align: right;
+		border-style: none;
+		background-color: #444;
+	}
+
+	header nav a:hover, nav a.selected {
+		color: #828B90;
+	}
+
+
+	footer {
+		text-align: right;
+		border-top: double;	
+	}
+
+	#footerunderline {
+		visibility: hidden;
+	}
+}
+
